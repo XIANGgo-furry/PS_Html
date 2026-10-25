@@ -1,0 +1,19 @@
+PXg{
+  "app": "PS_Html",
+  "version": "1.1.1",
+  "versionCode": 6,
+  "date": "2026-10-25",
+  "size": "180 KB",
+  "url": "https://xianggo-furry.github.io/PS_Html/PS_Html.html",
+  "download": "https://github.com/XIANGgo-furry/PS_Html/raw/main/PS_Html.html",
+  "force": false,
+  "notes": [
+    "【一致性】重写预览管线：笔迹/形状/蒙版编辑统一走一条路径，预览严格等于落地",
+    "修复：形状预览不套图层不透明度与混合模式（30% 图层预览是 100%）",
+    "修复：大图层超出文档范围时预览被裁（不再依赖文档尺寸的暂存画布）",
+    "修复：蒙版渲染在不支持 SVG 滤镜的浏览器上静默失效，改为逐像素兼容模式并提示",
+    "修复：蒙版亮度缓存未失效，导致蒙版编辑后画面不更新",
+    "优化：调整图层结果缓存，3 个调整图层叠加从 64ms/帧 降到 0.02ms/帧",
+    "优化：调整图层带蒙版时也能走降采样，拖滑块不再卡"
+  ]
+}
